@@ -1,17 +1,14 @@
-mod cmd;
-mod util;
-
 use std::ffi::OsString;
 
 use clap::{Arg, ArgAction, Command};
 use tracing_subscriber::util::SubscriberInitExt;
 
-use cmd::deps::handle_deps;
-use cmd::format::handle_format;
-use cmd::lint::handle_lint;
-use cmd::repl::handle_repl;
-use cmd::run::handle_run;
-use cmd::test::handle_test;
+use tan_toolchain::cmd::deps::handle_deps;
+use tan_toolchain::cmd::format::handle_format;
+use tan_toolchain::cmd::lint::handle_lint;
+use tan_toolchain::cmd::repl::handle_repl;
+use tan_toolchain::cmd::run::handle_run;
+use tan_toolchain::cmd::test::handle_test;
 
 const VERSION: &str = env!("CARGO_PKG_VERSION");
 
