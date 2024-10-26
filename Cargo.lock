@@ -356,7 +356,7 @@ checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 
 [[package]]
 name = "lib-tan-core"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "libloading",
  "rust_decimal",
@@ -849,7 +849,7 @@ dependencies = [
 
 [[package]]
 name = "tan"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "rust_decimal",
  "rust_decimal_macros",
@@ -858,14 +858,14 @@ dependencies = [
 
 [[package]]
 name = "tan-analysis"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "tan",
 ]
 
 [[package]]
 name = "tan-formatting"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "regex",
  "tan",
@@ -874,7 +874,7 @@ dependencies = [
 
 [[package]]
 name = "tan-lints"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "lsp-types",
  "tan",
@@ -882,7 +882,7 @@ dependencies = [
 
 [[package]]
 name = "tan-toolchain"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "anyhow",
  "clap",
